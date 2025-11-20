@@ -8,7 +8,6 @@ int findSet(int v) {
         return v;}
     int leader=findSet(parent[v]);
     parent[v]=leader;
-    
     return leader;}
 
 void unionSet(int a, int b) {
