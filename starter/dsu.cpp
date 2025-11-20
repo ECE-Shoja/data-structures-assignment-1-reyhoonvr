@@ -11,8 +11,6 @@ int findSet(int v) {
     
     return leader;}
 
-}
-
 void unionSet(int a, int b) {
     int A=findSet(a);
     int B=findSet(b);
